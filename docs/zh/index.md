@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 作者文档
-      link: /zh/writer-manual/index
+      link: /zh/writer/index
     - theme: alt
       text: 作者仪表盘
       link: https://quail.ink/dashboard

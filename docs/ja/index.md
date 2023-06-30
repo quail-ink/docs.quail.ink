@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: ドキュメンテーション
-      link: /writer-manual/index
+      link: /writer/index
     - theme: alt
       text: ライターダッシュボード
       link: https://quail.ink/dashboard

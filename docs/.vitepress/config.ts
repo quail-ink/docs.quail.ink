@@ -8,7 +8,7 @@ const genNav = () => {
     const prefix = lang === 'en' ? '' : '/' + lang;
     ret = [
       { text: t(lang, 'home'), link: '/' },
-      { text: t(lang, "writer_manual"), link: `${prefix}/writer-manual/index` }
+      { text: t(lang, "writer_manual"), link: `${prefix}/writer/index` }
     ]
   }
   return ret;
@@ -18,17 +18,20 @@ const genI18nSidebar = () => {
   const ret = {};
   for (const lang of ['en', 'zh', 'ja']) {
     const prefix = lang === 'en' ? '' : '/' + lang;
-    ret[`${prefix}/manual/`] = [
+    ret[`${prefix}/writer/`] = [
       {
-        text: t(lang, 'references'),
+        text: t(lang, 'list_settings'),
         items: [
-          { text: t(lang, 'essential'), link: `${prefix}/writer-manual/essential` },
+          { text: t(lang, 'payment_settings'), link: `${prefix}/writer/payment-settings` },
+          { text: t(lang, 'telegram_settings'), link: `${prefix}/writer/telegram-settings` },
         ]
       },
     ]
   }
   return ret;
 }
+
+const year = new Date().getFullYear();
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -51,25 +54,22 @@ export default defineConfig({
       lang: 'ja',
     }
   },
+
   themeConfig: {
-    // logo: { light: '/logo-with-text.svg', dark: 'logo-with-text-dark.svg', alt: 'Pando Proto' },
-    siteTitle: "Quail Doc",
+    logo: { light: '/logo-with-text.svg', dark: 'logo-with-text-dark.svg', alt: 'Quail' },
 
-    // editLink: {
-    //   pattern: 'https://github.com/pandodao/docs.pando.im/edit/master/docs/:path'
-    // },
-
+    siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: genNav(),
 
     sidebar: genI18nSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/pandodao/docs.pando.im' }
+      { icon: 'github', link: 'https://github.com/lyricat/docs.quail.ink' }
     ],
 
     footer: {
-      copyright: 'Copyright © present <a href="https://quail.ink" title="A newsletter service">Quail.ink</a>',
+      copyright: `©${year} <a href="https://quail.ink" title="A newsletter service">Quail.ink</a>`,
     }
   }
 })

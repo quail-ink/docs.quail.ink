@@ -8,6 +8,8 @@ export const messages = {
     "telegram_settings": "Telegram Settings" ,
     "faq": "FAQ",
     "troubleshooting": "Troubleshooting",
+    "plugins": "Plugins",
+    "obsidian_plugin": "Obsidian Plugin",
   },
   "zh": {
     "home": "首页",
@@ -18,6 +20,8 @@ export const messages = {
     "telegram_settings": "Telegram 设置" ,
     "faq": "常见问题",
     "troubleshooting": "故障排除",
+    "plugins": "插件",
+    "obsidian_plugin": "Obsidian 插件",
   },
   "ja": {
     "home": "ホーム",
@@ -28,6 +32,8 @@ export const messages = {
     "telegram_settings": "Telegram設定" ,
     "faq": "よくある質問",
     "troubleshooting": "トラブルシューティング",
+    "plugins": "プラグイン",
+    "obsidian_plugin": "Obsidian プラグイン",
   }
 }
 

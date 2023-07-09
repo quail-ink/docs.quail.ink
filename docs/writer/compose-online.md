@@ -12,8 +12,8 @@ The article title refers to the title of the article, which will be displayed in
 
 For example:
 
-- Article Title: "Introduction to Quail: Understanding Quail in Five Minutes"
-- Article Alias: "quail-introduction-five-minutes-to-understand-quail"
+- Article Title: `Introduction to Quail: Understanding Quail in Five Minutes`
+- Article Alias: `quail-introduction-five-minutes-to-understand-quail`
 
 Quail provides a feature to automatically generate article aliases. You can click the "AI Guess" magic wand button on the right side of the article alias input box, and Quail will automatically generate an article alias based on the article title.
 

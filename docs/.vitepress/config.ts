@@ -20,6 +20,12 @@ const genI18nSidebar = () => {
     const prefix = lang === 'en' ? '' : '/' + lang;
     ret[`${prefix}/writer/`] = [
       {
+        text: t(lang, 'compose_and_deliver'),
+        items: [
+          { text: t(lang, 'compose_online'), link: `${prefix}/writer/compose-online` },
+        ]
+      },
+      {
         text: t(lang, 'list_settings'),
         items: [
           { text: t(lang, 'email_settings'), link: `${prefix}/writer/email-channel-settings` },

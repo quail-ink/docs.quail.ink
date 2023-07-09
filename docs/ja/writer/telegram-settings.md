@@ -4,6 +4,8 @@ outline: deep
 
 # Telegramの設定
 
+**[Quail](https://quail.ink "Quail Official Website")** で、記事をTelegramに投稿することができます。このドキュメントでは、Telegramチャンネルの設定方法を説明します。
+
 ## 準備
 
 QuailをTelegramに接続する前に、いくつかの準備が必要です。

@@ -15,7 +15,7 @@ outline: deep
 - 記事のタイトル：`Quail 介紹：五分鐘了解 Quail`
 - 記事の別名：`quail-introduction-five-minutes-to-understand-quail`
 
-Quailには、記事の別名を自動生成する機能があります。記事の別名の入力ボックスの右側にある「AI 猜測」マジックワンドボタンをクリックすると、Quailが記事のタイトルに基づいて自動的に記事の別名を生成します。
+**[Quail](https://quail.ink "Quail Official Website")**には、記事の別名を自動生成する機能があります。記事の別名の入力ボックスの右側にある「AI 猜測」マジックワンドボタンをクリックすると、Quailが記事のタイトルに基づいて自動的に記事の別名を生成します。
 
 ## 記事のカバー、概要、タグ
 

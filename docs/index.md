@@ -10,8 +10,8 @@ hero:
       text: Documentation
       link: /writer/index
     - theme: alt
-      text: Writer Dashboard
-      link: https://quail.ink/dashboard
+      text: Official Website
+      link: https://quail.ink
 
 features:
   - title: "Open Source"

@@ -4,7 +4,7 @@ outline: deep
 
 # Obsidian 插件
 
-[Quail](https://quail.ink "Quail Newsletter and Publication Service") 提供了一个 [Obsidian](https://obsidian.md/) 插件，可以在 Obsidian 中使用 Quail 的发布、取消发布、投递文章等功能。
+**[Quail](https://quail.ink "Quail Official Website")** 提供了一个 [Obsidian](https://obsidian.md/) 插件，可以在 Obsidian 中使用 Quail 的发布、取消发布、投递文章等功能。
 
 配合 Obsidian 提供的强大的 Markdown 编辑功能，Quail 的 Obsidian 插件可以帮助您更好地管理您的文章。
 

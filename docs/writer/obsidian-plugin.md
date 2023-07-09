@@ -3,7 +3,7 @@ outline: deep
 ---
 # Obsidian Plugin
 
-[Quail](https://quail.ink "Quail Newsletter and Publication Service") provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quail's publishing, unpublishing, and post delivering features within Obsidian.
+**[Quail](https://quail.ink "Quail Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quail's publishing, unpublishing, and post delivering features within Obsidian.
 
 Combined with Obsidian's powerful Markdown editing capabilities, Quail's Obsidian plugin can help you better manage your posts.
 

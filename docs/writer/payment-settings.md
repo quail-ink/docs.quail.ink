@@ -4,6 +4,8 @@ outline: deep
 
 # Payment Settings
 
+**[Quail](https://quail.ink "Quail Official Website")** supports premium subscriptions. You can set up payment in the "Payment Settings" of the list settings.
+
 ## Preparation
 
 Quail currently only supports cryptocurrencies as a payment method. Before enabling payments, you need to set up a cryptocurrency wallet that supports EVM. Next, we will take the desktop version of [Metamask](https://metamask.io/) as an example to introduce how to set up payment.
@@ -18,7 +20,7 @@ Remember your seed phrase, this is the only way to recover your wallet.
 
 ## Enable Payment
 
-1. In Quail's "List Settings", find "Payment Settings".
+1. In **[Quail](https://quail.ink "Quail Official Website")**'s "List Settings", find "Payment Settings".
 2. Click "Bind Wallet". If Metamask has been installed correctly, an authorization window will pop up. Please complete the authorization.
 3. At this point, Quail will read your wallet address and display it under the "Binding Wallet".
 4. Please select the cryptocurrency you want to receive payment. Currently supports USDC and pUSD.
@@ -45,7 +47,7 @@ You can select the funds you want to withdraw on the MVM bridge, click "Withdraw
 
 MVM consumes ETH as gas fee when withdrawing funds. Please make sure that your wallet has enough ETH to pay the gas fee. 
 
-If not, you can use Pando's deposit function to deposit ETH to your wallet:
+If not, you can use [Pando](https://pando.im "Pando Official Website")'s deposit function to deposit ETH to your wallet:
 
 1. Visit [Pando App](https://app.pando.im/) and Connect Wallet.
 2. Tap your wallet address at the top right of the page (on mobile, tap the last item in the tabs), and then tap "Deposit".

@@ -4,6 +4,8 @@ outline: deep
 
 # Telegram Settings
 
+**[Quail](https://quail.ink "Quail Official Website")** can deliver posts to telegram channels. This document will guide you through the process of setting up telegram channels.
+
 ## Preparation
 
 We need to prepare a few things before we can connect Quail to telegram.

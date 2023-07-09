@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: ドキュメンテーション
-      link: /writer/index
+      link: /ja/writer/index
     - theme: alt
-      text: ライターダッシュボード
-      link: https://quail.ink/dashboard
+      text: 公式ウェブサイト
+      link: https://quail.ink
 
 features:
   - title: "オープンソース"

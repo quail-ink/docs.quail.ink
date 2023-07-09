@@ -4,6 +4,8 @@ outline: deep
 
 # Telegram 设置
 
+**[Quail](https://quail.ink "Quail Official Website")** 可以将文章发布到 Telegram 频道。本文档将指导您完成 Telegram 频道的设置。
+
 ## 准备工作
 
 在将 Quail 连接到 Telegram 前，我们需要准备一些东西。

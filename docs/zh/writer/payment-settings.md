@@ -4,9 +4,11 @@ outline: deep
 
 # 支付设置
 
+**[Quail](https://quail.ink "Quail Official Website")** 支持付费订阅。您可以在此设置您的付费订阅。
+
 ## 准备工作
 
-Quail 目前仅支持加密货币作为支付方式。在开启支付之前，您需要先设置一个支持 EVM 的加密货币钱包。接下来，将以桌面版 [Metamask](https://metamask.io/) 为例，介绍如何设置支付。
+**[Quail](https://quail.ink "Quail Official Website")** 目前仅支持加密货币作为支付方式。在开启支付之前，您需要先设置一个支持 EVM 的加密货币钱包。接下来，将以桌面版 [Metamask](https://metamask.io/) 为例，介绍如何设置支付。
 
 ### 安装 Metamask 创建钱包
 
@@ -45,7 +47,7 @@ MVM 网络提供了 [MVM 桥](https://bridge.mvm.app/) 这一应用程序，用�
 
 MVM 提现时会消耗 ETH 作为 Gas 费。 请确保您的钱包有足够的 ETH 来支付 Gas 费。
 
-如果没有，您可以使用Pando的存款功能将ETH存入您的钱包：
+如果没有，您可以使用 [Pando](https://pando.im "Pando Official Website") 的 Deposit 功能将ETH存入您的钱包：
 
 1. 访问 [Pando App](https://app.pando.im/) 并连接钱包。
 2. 点击页面右上角的钱包地址（在移动设备上，点击选项卡中的最后一项），然后点击 “充值”。

@@ -15,7 +15,7 @@ outline: deep
 - 文章标题：`Quail 介绍：五分钟了解 Quail`
 - 文章别名：`quail-introduction-five-minutes-to-understand-quail`
 
-Quail 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quail 会自动根据文章标题生成文章别名。
+**[Quail](https://quail.ink "Quail Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quail 会自动根据文章标题生成文章别名。
 
 ## 文章封面、摘要、标签
 

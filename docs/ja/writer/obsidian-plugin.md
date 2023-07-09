@@ -5,7 +5,7 @@ outline: deep
 
 # Obsidian プラグイン
 
-[Quail](https://quail.ink "Quail Newsletter and Publication Service")は、[Obsidian](https://obsidian.md/)でQuailの投稿、投稿の取り消し、記事の配信などの機能を利用するためのObsidianプラグインを提供しています。
+**[Quail](https://quail.ink "Quail Official Website")**は、[Obsidian](https://obsidian.md/)でQuailの投稿、投稿の取り消し、記事の配信などの機能を利用するためのObsidianプラグインを提供しています。
 
 Obsidianが提供する強力なMarkdown編集機能と組み合わせて、QuailのObsidianプラグインを使用すると、記事の管理をより効果的に行うことができます。
 

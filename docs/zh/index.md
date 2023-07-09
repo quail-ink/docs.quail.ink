@@ -10,8 +10,8 @@ hero:
       text: 作者文档
       link: /zh/writer/index
     - theme: alt
-      text: 作者仪表盘
-      link: https://quail.ink/dashboard
+      text: 官方网站
+      link: https://quail.ink
 
 features:
   - title: "开源"

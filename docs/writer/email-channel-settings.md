@@ -14,7 +14,7 @@ When this option is turned on, every time an article is delivered, an email will
 
 When a subscriber subscribes to a list, they receive a welcome email. 
 
-Here you can edit the content of the welcome email. If the content is empty, Quail will use the default text.
+Here you can edit the content of the welcome email. If the content is empty, **[Quail](https://quail.ink "Quail Official Website")** will use the default text.
 
 ## Signature Text
 

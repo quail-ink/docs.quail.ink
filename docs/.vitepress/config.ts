@@ -22,6 +22,7 @@ const genI18nSidebar = () => {
       {
         text: t(lang, 'list_settings'),
         items: [
+          { text: t(lang, 'email_settings'), link: `${prefix}/writer/email-channel-settings` },
           { text: t(lang, 'payment_settings'), link: `${prefix}/writer/payment-settings` },
           { text: t(lang, 'telegram_settings'), link: `${prefix}/writer/telegram-settings` },
         ]

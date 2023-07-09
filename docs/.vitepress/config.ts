@@ -39,6 +39,12 @@ const genI18nSidebar = () => {
           { text: t(lang, 'obsidian_plugin'), link: `${prefix}/writer/obsidian-plugin` },
         ]
       },
+      {
+        text: t(lang, 'other_topics'),
+        items: [
+          { text: t(lang, 'troubleshooting'), link: `${prefix}/writer/troubleshooting` },
+        ]
+      },
     ]
   }
   return ret;

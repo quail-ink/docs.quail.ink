@@ -4,7 +4,7 @@ outline: deep
 
 # Obsidian 插件
 
-**[Quail](https://quail.ink "Quail Official Website")** 提供了一个 [Obsidian](https://obsidian.md/) 插件，可以在 Obsidian 中使用 Quail 的发布、取消发布、投递文章等功能。
+**[Quail](https://quail.ink "Quail Official Website")** 提供了一个 [Obsidian](https://obsidian.md/) 插件，可以在 Obsidian 中使用 Quail 的发布、取消发布、推送文章等功能。
 
 配合 Obsidian 提供的强大的 Markdown 编辑功能，Quail 的 Obsidian 插件可以帮助您更好地管理您的文章。
 
@@ -101,9 +101,9 @@ cover: "文章封面图片的 URL"
 
 具体的操作和发布文章类似，只是在第 2 步中选择「Quail: Unpublish」命令即可。
 
-## 投递文章
+## 推送文章
 
-投递文章将会把一篇文章通过邮件投递给你的订阅者。如果您为列表设置了 Telegram 机器人，那么投递文章的同时，机器人也会自动推送文章到您的 Telegram 频道。
+推送文章将会把一篇文章通过邮件推送给你的订阅者。如果您为列表设置了 Telegram 机器人，那么推送文章的同时，机器人也会自动推送文章到您的 Telegram 频道。
 
 具体的操作和发布文章类似，只是在第 2 步中选择「Quail: Deliver」命令即可。
 

@@ -13,7 +13,7 @@ outline: deep
 Quail 的 Obsidian 插件需要使用 API KEY 来访问 Quail 的 API。请通过以下步骤获得 API KEY：
 
 1. 登录到 Quail：https://quail.ink/login
-2. 访问「[个人资料 - API 密钥](https://quail.ink/profile/apikeys)」 页面。
+2. 访问「[个人资料 - API 密钥](https://quail.ink/dashboard/profile/apikeys)」 页面。
 3. 点击「新建」按钮，输入 API 密钥名称，点击「创建」按钮
 4. 在 API 密钥列表中会出现新创建的 API 密钥，点击「复制」按钮，将 API 密钥复制到剪贴板中。
 

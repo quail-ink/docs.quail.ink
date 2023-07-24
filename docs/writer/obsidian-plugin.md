@@ -12,7 +12,7 @@ Combined with Obsidian's powerful Markdown editing capabilities, Quail's Obsidia
 Quail's Obsidian plugin requires an API key to access Quail's API. Follow these steps to obtain an API key:
 
 1. Log in to Quail: https://quail.ink/login
-2. Visit the "[Profile - API Keys](https://quail.ink/profile/apikeys)" page.
+2. Visit the "[Profile - API Keys](https://quail.ink/dashboard/profile/apikeys)" page.
 3. Click the "New" button, enter an API key name, and click "Create".
 4. A newly created API key will appear in the API key list. Click the "Copy" button to copy the API key to your clipboard.
 

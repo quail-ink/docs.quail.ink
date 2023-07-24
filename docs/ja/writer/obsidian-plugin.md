@@ -14,7 +14,7 @@ Obsidianが提供する強力なMarkdown編集機能と組み合わせて、Quai
 QuailのObsidianプラグインを使用するには、QuailのAPIにアクセスするためにAPIキーが必要です。APIキーを取得するためには、以下の手順を実行してください：
 
 1. Quailにログインする：https://quail.ink/login
-2. 「[プロフィール - APIキー](https://quail.ink/profile/apikeys)」ページにアクセスする。
+2. 「[プロフィール - APIキー](https://quail.ink/dashboard/profile/apikeys)」ページにアクセスする。
 3. 「新規作成」ボタンをクリックし、APIキーの名前を入力し、「作成」ボタンをクリックします。
 4. APIキーリストに新しく作成されたAPIキーが表示されますので、「コピー」ボタンをクリックしてAPIキーをクリップボードにコピーします。
 

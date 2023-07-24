@@ -60,3 +60,13 @@ You will see a "Telegram Settings" section, just fill in the token and channel i
 
 If everything is ok, the new settings will be saved. Now all new deliveried posts will be sent to the channel too.
 
+## Additional Topic: Set up a discussion for the channel
+
+If you want to add a discussion board to your channel, you can follow these steps:
+
+1. Log in to your Telegram channel and open your channel profile. 
+2. Then enter the Discussion section. 
+3. Select a existing group or click "Create a New Group" to create a new group for your channel, and confirm to link the group to your channel.
+  
+After these steps, if your telegram has been updated and commenting on the Telegram channel is activated, you can see the comment section below the posts of that channel. This section is labeled Comments, and this text appears in it: "Leave a Comment". You can easily put your comments below this post. 
+

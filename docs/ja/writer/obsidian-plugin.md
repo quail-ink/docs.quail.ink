@@ -22,7 +22,7 @@ APIキーを安全な場所に保存し、他の人に漏らさないように�
 
 ## プラグインのインストール
 
-現時点では、QuailのObsidianプラグインはまだObsidianのプラグインストアで見つけることはできませんので、手動でプラグインをインストールする必要があります。インストール方法については、[プラグインのホームページ](https://github.com/lyricat/obsidian-quail)を参照してください。
+現時点では、QuailのObsidianプラグインはまだObsidianのプラグインストアで見つけることはできませんので、手動でプラグインをインストールする必要があります。インストール方法については、[プラグインのホームページ](https://github.com/quail-ink/obsidian-quail)を参照してください。
 
 ## プラグインの設定
 
@@ -152,4 +152,4 @@ Obsidianの構文ではなく、このような形式で指定してください
 
 ---
 
-以上がQuailのObsidianプラグインの使用方法です。ご質問がある場合は、[GitHubのIssue](https://github.com/lyricat/obsidian-quail/issues)でお気軽にお知らせください。
+以上がQuailのObsidianプラグインの使用方法です。ご質問がある場合は、[GitHubのIssue](https://github.com/quail-ink/obsidian-quail/issues)でお気軽にお知らせください。

@@ -21,7 +21,7 @@ Quail 的 Obsidian 插件需要使用 API KEY 来访问 Quail 的 API。请通�
 
 ## 安装插件
 
-目前，Quail 的 Obsidian 插件还不能在 Obsidian 的插件商店中找到，您需要手动安装插件。安装方式请参考[插件首页](https://github.com/lyricat/obsidian-quail)。
+目前，Quail 的 Obsidian 插件还不能在 Obsidian 的插件商店中找到，您需要手动安装插件。安装方式请参考[插件首页](https://github.com/quail-ink/obsidian-quail)。
 
 ## 配置插件
 
@@ -145,6 +145,6 @@ cover: "文章封面图片的 URL"
 
 ---
 
-以上就是 Quail 的 Obsidian 插件的使用方法。如果您有任何问题，欢迎在 [GitHub Issue](https://github.com/lyricat/obsidian-quail/issues) 中提出。
+以上就是 Quail 的 Obsidian 插件的使用方法。如果您有任何问题，欢迎在 [GitHub Issue](https://github.com/quail-ink/obsidian-quail/issues) 中提出。
 
 

@@ -20,7 +20,7 @@ Please keep the API key in a secure place and do not share it with others. We wi
 
 ## Installing the Plugin
 
-Currently, Quail's Obsidian plugin cannot be found in the Obsidian plugin marketplace, so you need to manually install the plugin. Please refer to the [plugin homepage](https://github.com/lyricat/obsidian-quail) for installation instructions.
+Currently, Quail's Obsidian plugin cannot be found in the Obsidian plugin marketplace, so you need to manually install the plugin. Please refer to the [plugin homepage](https://github.com/quail-ink/obsidian-quail) for installation instructions.
 
 ## Configuring the Plugin
 
@@ -146,4 +146,4 @@ Note that "/essay/images/image-1.png" is an absolute path (starting from the top
 
 ---
 
-That's the usage of Quail's Obsidian plugin. If you have any questions, please feel free to raise them in the [GitHub Issue](https://github.com/lyricat/obsidian-quail/issues).
+That's the usage of Quail's Obsidian plugin. If you have any questions, please feel free to raise them in the [GitHub Issue](https://github.com/quail-ink/obsidian-quail/issues).

@@ -21,7 +21,18 @@ Quail 的 Obsidian 插件需要使用 API KEY 来访问 Quail 的 API。请通�
 
 ## 安装插件
 
-目前，Quail 的 Obsidian 插件还不能在 Obsidian 的插件商店中找到，您需要手动安装插件。安装方式请参考[插件首页](https://github.com/quail-ink/obsidian-quail)。
+目前，Quail 的 Obsidian 插件在 Obsidian 插件市场中找不到，因此需要手动安装该插件。 请按照以下步骤操作：
+
+1. 从 [GitHub 发布页面](https://github.com/quail-ink/obsidian-quail/releases/)下载最新版本的插件
+2. 解压下载的文件，你会看到有一个“obsidian-quail”文件夹。
+3. 进入 Obsidian 的设置页面，然后单击“社区插件”选项卡。
+4. 单击“社区插件”选项卡右侧的“文件夹”按钮。 将出现文件视图。 将“obsidian-quail”文件夹复制到文件视图中。
+5. 重启 Obsidian
+6. 进入“社区插件”选项卡，找到 Quail 插件，然后单击“启用”按钮。
+
+您可能需要再次重新启动 Obsidian 插件才能生效。
+
+更多安装说明请参考【插件主页】(https://github.com/quail-ink/obsidian-quail)。
 
 ## 配置插件
 

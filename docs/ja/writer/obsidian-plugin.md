@@ -22,7 +22,20 @@ APIキーを安全な場所に保存し、他の人に漏らさないように�
 
 ## プラグインのインストール
 
-現在、Quail の Obsidian プラグインは Obsidian プラグイン マーケットプレイスで見つからないため、プラグインを手動でインストールする必要があります。 次の手順に従ってください。
+現在、QuailのObsidianプラグインはObsidianプラグインマーケットで見つかりませんので、別の方法でインストールする必要があります。
+
+### obsidian42-bratプラグインを使用してインストールする
+
+[obsidian42-brat](https://github.com/TfTHacker/obsidian42-brat)はObsidianプラグインで、プラグインマーケットに掲載されていない他のプラグインをインストールしてテストするためのものです。したがって、まずobsidian42-bratプラグインをインストールし、それを使用してQuailのObsidianプラグインをインストールできます。
+
+1. obsidian42-bratプラグインをインストールします：
+   Obsidianの設定ページで、「Community Plugins」タブをクリックし、「プラグインのインストール」ボタンをクリックし、「obsidian42-brat」と検索して「インストール」ボタンをクリックします。インストールが完了したら、プラグインを有効にします。
+2. Quailをobsidian42-bratプラグインのプラグインリストに追加します：
+   Obsidian42-bratの設定で、「Add Beta Plugin」をクリックし、`https://github.com/quail-ink/obsidian-quail`と入力し、「Add」ボタンをクリックします。
+3. 「Auto-update plugins at startup」オプションにチェックを入れると、Obsidian42-bratプラグインが起動時に自動的にQuailのプラグインを更新します。
+
+
+### 手動インストール
 
 1. [GitHub リリース ページ](https://github.com/quail-ink/obsidian-quail/releases/) からプラグインの最新バージョンをダウンロードします。
 2. ダウンロードしたファイルを解凍すると、「obsidian-quail」フォルダーがあることがわかります。

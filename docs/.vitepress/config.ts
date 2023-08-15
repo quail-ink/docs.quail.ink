@@ -23,6 +23,7 @@ const genI18nSidebar = () => {
         text: t(lang, 'compose_and_deliver'),
         items: [
           { text: t(lang, 'compose_online'), link: `${prefix}/writer/compose-online` },
+          { text: t(lang, 'ai'), link: `${prefix}/writer/ai` },
         ]
       },
       {
@@ -31,6 +32,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'email_settings'), link: `${prefix}/writer/email-channel-settings` },
           { text: t(lang, 'payment_settings'), link: `${prefix}/writer/payment-settings` },
           { text: t(lang, 'telegram_settings'), link: `${prefix}/writer/telegram-settings` },
+          { text: t(lang, 'analytics_settings'), link: `${prefix}/writer/analytics-settings` },
         ]
       },
       {

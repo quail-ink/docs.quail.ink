@@ -21,30 +21,13 @@ Quail 的 Obsidian 插件需要使用 API KEY 来访问 Quail 的 API。请通�
 
 ## 安装插件
 
-目前，Quail 的 Obsidian 插件在 Obsidian 插件市场中找不到，因此需要用别的方式安装。
+Quail 的 Obsidian 插件可以在 Obsidian 社区插件列表中找到。 您可以直接从那里安装它。
 
-### 用 obsidian42-brat 插件安装
+1. 打开 Obsidian 的设置页面，然后单击“社区插件”选项卡。
+2. 单击“社区插件”选项卡右侧的“浏览”按钮。 将出现一个插件列表。
+3. 在插件列表中搜索“Quail”，然后单击“安装”按钮。
 
-[obsidian42-brat](https://github.com/TfTHacker/obsidian42-brat) 是一个 Obsidian 插件，它可以用来安装和测试其他没有进入插件市场的插件。所以您可以先安装 obsidian42-brat 插件，然后使用它来安装 Quail 的 Obsidian 插件。
-
-1. 安装 obsidian42-brat 插件：
-   在 Obsidian 的设置页面，点击「社区插件」选项卡，然后点击「安装插件」按钮，搜索「obsidian42-brat」，点击「安装」按钮。安装完毕以后，启用插件。
-2. 把 Quail 添加到 obsidian42-brat 插件的插件列表中：
-   在 Obsidian42-brat 的设置中，点击「Add Beta Plugin」，输入 `https://github.com/quail-ink/obsidian-quail`，点击「Add」按钮即可
-3. 可勾选「Auto-update plugins at startup」选项，这样 Obsidian42-brat 插件会在启动时自动更新 Quail 的插件。
-
-### 手动安装
-
-请按照以下步骤操作：
-
-1. 从 [GitHub 发布页面](https://github.com/quail-ink/obsidian-quail/releases/)下载最新版本的插件
-2. 解压下载的文件，你会看到有一个“obsidian-quail”文件夹。
-3. 进入 Obsidian 的设置页面，然后单击“社区插件”选项卡。
-4. 单击“社区插件”选项卡右侧的“文件夹”按钮。 将出现文件视图。 将“obsidian-quail”文件夹复制到文件视图中。
-5. 重启 Obsidian
-6. 进入“社区插件”选项卡，找到 Quail 插件，然后单击“启用”按钮。
-
-您可能需要再次重新启动 Obsidian 插件才能生效。
+您可能需要再次重新启动，插件才能生效。
 
 更多安装说明请参考[插件主页](https://github.com/quail-ink/obsidian-quail)。
 

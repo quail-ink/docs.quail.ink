@@ -118,12 +118,31 @@ The process is similar to publishing an post, but in the second step, select the
 
 ## Inserting Images
 
-If the images in your post come from your local Obsidian, Quail's Obsidian plugin can read them and automatically upload them to Quail when saving or publishing posts. However, this requires meeting two requirements:
+If the images in your post come from your local vault of Obsidian, Quail's Obsidian plugin can read them and automatically upload them to Quail when saving or publishing posts.
+You can use both Obsidian's internal link syntax and general Markdown image syntax to insert images into your posts.
 
-1. When inserting your images in the post, use Markdown image syntax instead of Obsidian's internal link syntax.
-2. Use absolute pathing for the images.
+:::tip
+Once the images are uploaded to Quail, Quail will automatically convert the image into WebP format and replace the image links in your post with the URLs of the uploaded images.
+:::
+
+**Internal link syntax**
+
+It could be either absolute path or image aliasing in the sentence.
 
 Here's an example:
+
+```
+![[image-1.png]]
+
+![[images/image-2.png]]
+```
+
+The code above will insert the images `image-1.png` and `image-2.png` into the post. In this case, `image-1.png` is the only file with this name in the post, `image-2.png` is the a file under the `images` folder.
+You can also paste an image directly from the clipboard and Quail will handle it automatically.
+
+**Markdown image syntax**
+
+Please use absolute path for inserting image in this way. Here's an example:
 
 Suppose your Obsidian directory structure is as follows:
 

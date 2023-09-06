@@ -14,6 +14,7 @@ export const messages = {
     "troubleshooting": "Troubleshooting",
     "plugins": "Plugins",
     "obsidian_plugin": "Obsidian Plugin",
+    "ai": "AI features",
   },
   "zh": {
     "home": "首页",
@@ -30,6 +31,7 @@ export const messages = {
     "troubleshooting": "故障排除",
     "plugins": "插件",
     "obsidian_plugin": "Obsidian 插件",
+    "ai": "AI 功能",
   },
   "ja": {
     "home": "ホーム",
@@ -46,6 +48,7 @@ export const messages = {
     "troubleshooting": "トラブルシューティング",
     "plugins": "プラグイン",
     "obsidian_plugin": "Obsidian プラグイン",
+    "ai": "AI 機能",
   }
 }
 

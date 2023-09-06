@@ -6,11 +6,19 @@ outline: deep
 
 **[Quail](https://quail.ink "Quail Official Website")** 支持付费订阅。您可以在此设置您的付费订阅。
 
-## 准备工作
+## 非加密货币支付
+
+Quail supports non-cryptocurrency payment methods such as credit cards, debit cards, WeChat Pay and PayPal. However, due to the high fees charged by payment processors, writers must apply for using non-cryptocurrency payment methods.
+
+If you want to use non-cryptocurrency payment methods, please contact us at [Discord](https://discord.gg/quMK3kj).
+
+## 加密货币支付
+
+### 准备工作
 
 **[Quail](https://quail.ink "Quail Official Website")** 目前仅支持加密货币作为支付方式。在开启支付之前，您需要先设置一个支持 EVM 的加密货币钱包。接下来，将以桌面版 [Metamask](https://metamask.io/) 为例，介绍如何设置支付。
 
-### 安装 Metamask 创建钱包
+**安装 Metamask 创建钱包**
 
 首先，您需要安装 Metamask 浏览器插件。您可以在 [Metamask 官网](https://metamask.io/)下载适合您浏览器的插件。
 
@@ -18,7 +26,7 @@ outline: deep
 
 请记住您的助记词，这是恢复钱包的唯一方式。
 
-## 开启支付
+### 开启支付
 
 1. 在 Quail 的「列表设置」中，找到「支付设置」。
 2. 点击「绑定钱包」，如果 Metamask 已经正确安装，那么会弹出授权窗口。请完成授权。
@@ -29,7 +37,7 @@ outline: deep
 
 如果没有错误，则支付设置已经完成。您可以点击「访问会员升级页」来查看会员升级页面的呈现效果。
 
-## 查看收益
+### 查看收益
 
 Quail 不会保存您的资金，所有的资金都会直接转入您的钱包在 [MVM 网络](https://mvm.app) 上的地址。
 
@@ -37,13 +45,13 @@ Quail 不会保存您的资金，所有的资金都会直接转入您的钱包�
 
 将会带您前往 MVM 网络的区块浏览器地址页面，您可以在这里查看您的资金和交易情况。
 
-## 提取资金
+### 提取资金
 
 MVM 网络提供了 [MVM 桥](https://bridge.mvm.app/) 这一应用程序，用于查看、存入和提取资金。
 
 您可以在 MVM 桥选择您要提取的资金，点击「Withdraw」，按照指示操作即可将资金从 MVM 网络提取到对应的 L1 网络中。
 
-### 存入一些 ETH 作为 Gas 费
+**存入一些 ETH 作为 Gas 费**
 
 MVM 提现时会消耗 ETH 作为 Gas 费。 请确保您的钱包有足够的 ETH 来支付 Gas 费。
 

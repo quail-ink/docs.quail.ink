@@ -6,11 +6,19 @@ outline: deep
 
 **[Quail](https://quail.ink "Quail Official Website")** supports premium subscriptions. You can set up payment in the "Payment Settings" of the list settings.
 
-## Preparation
+## Non-Cryptocurrency Payment
+
+Quail supports non-cryptocurrency payment methods such as credit cards, debit cards, WeChat Pay and PayPal. However, due to the high fees charged by payment processors, writers must apply for using non-cryptocurrency payment methods.
+
+If you want to use non-cryptocurrency payment methods, please contact us at [Discord](https://discord.gg/quMK3kj).
+
+## Cryptocurrency Payment
+
+### Preparation
 
 Quail currently only supports cryptocurrencies as a payment method. Before enabling payments, you need to set up a cryptocurrency wallet that supports EVM. Next, we will take the desktop version of [Metamask](https://metamask.io/) as an example to introduce how to set up payment.
 
-### Install Metamask to create a wallet
+**Install Metamask to create a wallet**
 
 First, you need to install the Metamask browser plugin. You can download the plug-in for your browser on the [Metamask official website](https://metamask.io/).
 
@@ -18,7 +26,7 @@ After installing Metamask, you need to create a wallet. In the Metamask plugin, 
 
 Remember your seed phrase, this is the only way to recover your wallet.
 
-## Enable Payment
+### Enable Payment
 
 1. In **[Quail](https://quail.ink "Quail Official Website")**'s "List Settings", find "Payment Settings".
 2. Click "Bind Wallet". If Metamask has been installed correctly, an authorization window will pop up. Please complete the authorization.
@@ -29,7 +37,7 @@ Remember your seed phrase, this is the only way to recover your wallet.
 
 If there are no errors, payment setup is complete. You can click "Visit membership upgrade page" to view the rendering effect of the membership upgrade page.
 
-## View Earnings
+### View Earnings
 
 Quail does not hold your funds, all funds are transferred directly to your wallet address on the [MVM Network](https://mvm.app).
 
@@ -37,13 +45,13 @@ Receive an email in your inbox when a new subscriber pays for your membership pl
 
 This will take you to the block explorer address page of the MVM network where you can view your funds and transactions.
 
-## Withdraw Funds
+### Withdraw Funds
 
-The MVM Network provides the [MVM Bridge](https://bridge.mvm.app/) app for viewing, depositing and withdrawing funds.
+The MVM Network provides the [MVM Bridge](https://app.pando.im/bridge) app for viewing, depositing and withdrawing funds.
 
 You can select the funds you want to withdraw on the MVM bridge, click "Withdraw", and follow the instructions to withdraw the funds from the MVM network to the corresponding L1 network.
 
-### Deposit some ETH as gas fee
+**Deposit some ETH as gas fee**
 
 MVM consumes ETH as gas fee when withdrawing funds. Please make sure that your wallet has enough ETH to pay the gas fee. 
 

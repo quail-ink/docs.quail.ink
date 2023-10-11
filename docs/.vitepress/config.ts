@@ -33,6 +33,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'payment_settings'), link: `${prefix}/writer/payment-settings` },
           { text: t(lang, 'telegram_settings'), link: `${prefix}/writer/telegram-settings` },
           { text: t(lang, 'analytics_settings'), link: `${prefix}/writer/analytics-settings` },
+          { text: t(lang, 'domain_settings'), link: `${prefix}/writer/domain-settings` },
         ]
       },
       {

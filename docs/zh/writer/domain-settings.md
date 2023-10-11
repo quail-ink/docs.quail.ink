@@ -10,6 +10,7 @@ outline: deep
 
 1. 您必须拥有要添加的域名。
 2. 您必须能够修改域名的DNS记录。
+3. 域名必须是子域名，例如 `letters.example.com`。 不支持根域，例如 `example.com`。
 
 ## 添加自定义域
 

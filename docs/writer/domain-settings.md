@@ -10,6 +10,7 @@ Writers can add a custom domain to their list. After adding, the list will be ac
 
 1. You must own the domain name you want to add.
 2. You must be able to modify the DNS records of the domain name.
+3. The domain name must be a subdomain, such as `letters.example.com`. Root domain, such as `example.com`, is not supported.
 
 ## Add a custom domain
 

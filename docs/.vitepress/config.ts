@@ -23,6 +23,7 @@ const genI18nSidebar = () => {
         text: t(lang, 'compose_and_deliver'),
         items: [
           { text: t(lang, 'compose_online'), link: `${prefix}/writer/compose-online` },
+          { text: t(lang, 'markdown_syntax'), link: `${prefix}/writer/markdown-syntax` },
           { text: t(lang, 'ai'), link: `${prefix}/writer/ai` },
         ]
       },
@@ -45,6 +46,7 @@ const genI18nSidebar = () => {
       {
         text: t(lang, 'other_topics'),
         items: [
+          { text: t(lang, 'migration'), link: `${prefix}/writer/migration` },
           { text: t(lang, 'troubleshooting'), link: `${prefix}/writer/troubleshooting` },
         ]
       },

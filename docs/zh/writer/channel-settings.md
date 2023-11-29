@@ -15,7 +15,7 @@ Quail 还支持向 Discord 发送文章，步骤非常简单：
 1. 假设您已经创建了一个 Discord 服务器，并且您有管理该服务器的权限。
 2. 按照 [这个说明](https://techwiser.com/how-to-copy-discord-profile-channel-server-message-id-and-link/) 获Channel。
 3. 访问 [Quail 的仪表板](https://quail.ink/dashboard)，选择要连接的列表，然后单击侧边栏的“列表设置”。
-4. 您将看到“频道设置”部分，只需启用 Discord 频道并填Channel，然后单击“保存”按钮。
+4. 您将看到“频道设置”部分，只需启用 Discord 频道并填 Channel ID，然后单击“保存”按钮。
 5. 可选：填写 **Discord 邀请 URL**，一个带有邀请 URL 的 Discord 图标将被添加到订阅表单中。
 
 ## Telegram 设置

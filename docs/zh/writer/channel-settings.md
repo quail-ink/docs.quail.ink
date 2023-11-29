@@ -13,9 +13,10 @@ Quail 支持将文章发送到不同的渠道。本文档将指导您完成设�
 Quail 还支持向 Discord 发送文章，步骤非常简单：
 
 1. 假设您已经创建了一个 Discord 服务器，并且您有管理该服务器的权限。
-2. 按照 [这个说明](https://techwiser.com/how-to-copy-discord-profile-channel-server-message-id-and-link/) 获取频道 ID。
+2. 按照 [这个说明](https://techwiser.com/how-to-copy-discord-profile-channel-server-message-id-and-link/) 获Channel。
 3. 访问 [Quail 的仪表板](https://quail.ink/dashboard)，选择要连接的列表，然后单击侧边栏的“列表设置”。
-4. 您将看到“频道设置”部分，只需启用 Discord 频道并填写频道 ID，然后单击“保存”按钮。
+4. 您将看到“频道设置”部分，只需启用 Discord 频道并填Channel，然后单击“保存”按钮。
+5. 可选：填写 **Discord 邀请 URL**，一个带有邀请 URL 的 Discord 图标将被添加到订阅表单中。
 
 ## Telegram 设置
 
@@ -27,7 +28,7 @@ Quail 还支持向 Discord 发送文章，步骤非常简单：
 - Android：在聊天列表中，点击圆形铅笔图标，然后选择“新建频道”。
 - Windows Phone：在底部栏点击“+”按钮，然后选择“新建频道”。
 
-创建完频道后，请将其设置为公开，以便所有人都能加入。公开频道将具有以下链接：`https://t.me/your_channel_name`。频道 ID 是 `@your_channel_name`。
+创建完频道后，请将其设置为公开，以便所有人都能加入。公开频道将具有以下链接：`https://t.me/your_channel_name`Channel 是 `@your_channel_name`。
 
 ### 将 Quail 的机器人添加到频道
 
@@ -37,7 +38,7 @@ Quail 还支持向 Discord 发送文章，步骤非常简单：
 
 剩下的步骤非常简单，只需访问 [Quail 的写作面板](https://quail.ink/dashboard)，选择要连接的列表，然后点击侧边栏的 `列表设置`。
 
-您将看到一个 "Telegram 设置" 部分，只需填写频道 ID，然后点击 `Verify` 按钮。
+您将看到一个 "Telegram 设置" 部分，只需填Channel，然后点击 `Verify` 按钮。
 
 如果一切正常，新的设置将被保存。现在，所有新发布的文章也将发送到该频道。
 
@@ -76,6 +77,18 @@ Quail 还支持向 Discord 发送文章，步骤非常简单：
 4. 选择 `Allow Groups`
 5. 选择 `Turn on`
 
-然后您可以将机器人添加到频道，并且修改 Quail 频道设置中的机器人令牌和 频道 ID，保存即可。
+然后您可以将机器人添加到频道，并且修改 Quail 频道设置中的机器人令牌和Channel，保存即可。
 
+### LINE 设置
 
+Quail 支持将文章发送到 LINE 频道。开始之前，请确保您已经在 [LINE Developer Dashboard](https://developers.line.biz/console) 创建了一个 LINE 频道。从头开始，您需要创建一个**Provider**，然后在该频道下创建一个**Messaging API Channel**。
+
+1. 访问 [Quail 的仪表板](https://quail.ink/dashboard)，选择要连接的列表，然后单击侧边栏的“列表设置”。
+2. 您将看到“频道设置”部分，只需启用 LINE 频道
+3. 首次使用，您需要为频道创建一个密钥对，点击 `创建` 按钮。然后您将看到公钥。复制公钥以供下一步使用。
+4. 访问 [LINE Developer Dashboard](https://developers.line.biz/console)，选择要连接的频道，找到 **Basic Settings** 下的 **Assertion Signing Key**，点击 **Register a public key** 按钮，粘贴刚刚复制的公钥，然后点击 **Register** 按钮。
+5. 复制 **Assertion Signing Key** 并将其粘贴到频道设置页面。
+6. 然后填写 **Channel ID** 和 **Channel Secret**。您可以在 **Basic Settings** 下找到它们。
+7. 可选：填写 **Basic ID**，一个带有邀请 URL 的 LINE 图标将被添加到订阅表单中。
+
+就是这样。现在您可以保存设置。新发布的文章也将发送到 LINE 频道。

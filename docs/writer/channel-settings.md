@@ -6,16 +6,17 @@ outline: deep
 
 Quail supports to deliver posts to different channels. This document will guide you through the process of setting up channels. 
 
-At present, Quail supports the following channels: Telegram and Discord. We will add more channels in the future.
+At present, Quail supports the following channels: Telegram, Discord, LINE. We will add more channels in the future.
 
 ## Discord Settings
 
-Quail also supports sending posts to Discord. The steps are very simple:
+Quail supports sending posts to Discord. The steps are very simple:
 
 1. Let's assume that you have already created a Discord server, and you have the permission to manage the server.
 2. Follow [the instructions](https://techwiser.com/how-to-copy-discord-profile-channel-server-message-id-and-link/) to get the channel id.
 3. Visit [Quail's dashboard](https://quail.ink/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
-4. You will see a "Channel Settings" section, just enable Discord channel and fill in the channel id, then click the `Save` button.
+4. You will see a "Channel Settings" section, just enable Discord channel and fill in the **Discord Channel ID**, then click the `Save` button.
+5. Optional: fill in the **Discord invite URL**, an discord icon with invite URL will be added to the subscribe form.
 
 ## Telegram Settings
 
@@ -80,3 +81,16 @@ The next step is to add the bot to the channel and give it permissions. Let's mo
 
 Then you can add the bot to the channel, and fill in the token and channel id in the channel settings page.
 
+### LINE Settings
+
+Quail supports sending posts to LINE Channel. Before you start, please make sure you have already created a LINE Channel at [LINE Developer Dashboard](https://developers.line.biz/console). Begin from stratch, you need to create a **Provider**, then create a **Messaging API Channel** under the channel.
+
+1. Visit [Quail's dashboard](https://quail.ink/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
+2. You will see a "Channel Settings" section, just enable LINE channel
+3. For the first time, you need to create a key pair for the channel, click the `Create` button. Then you will see the public key. Copy the public key for next step.
+4. Visit [LINE Developer Dashboard](https://developers.line.biz/console), select the channel you want to connect, find **Assertion Signing Key** under **Basic Settings**, click **Register a public key** button, paste the public key you just copied, then click **Register** button.
+5. Copy the **Assertion Signing Key** and paste it to the channel settings page.
+6. Then fill in the **Channel ID** and **Channel Secret**. You can find them under **Basic Settings**.
+7. Optional: fill in the **Basic ID**, an LINE icon with invite URL will be added to the subscribe form.
+
+That's all. Now you can save the settings. The new deliveried posts will be sent to the LINE channel too.

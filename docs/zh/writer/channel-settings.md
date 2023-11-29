@@ -79,7 +79,7 @@ Quail 还支持向 Discord 发送文章，步骤非常简单：
 
 然后您可以将机器人添加到频道，并且修改 Quail 频道设置中的机器人令牌和Channel，保存即可。
 
-### LINE 设置
+## LINE 设置
 
 Quail 支持将文章发送到 LINE 频道。开始之前，请确保您已经在 [LINE Developer Dashboard](https://developers.line.biz/console) 创建了一个 LINE 频道。从头开始，您需要创建一个**Provider**，然后在该频道下创建一个**Messaging API Channel**。
 
@@ -89,6 +89,6 @@ Quail 支持将文章发送到 LINE 频道。开始之前，请确保您已经�
 4. 访问 [LINE Developer Dashboard](https://developers.line.biz/console)，选择要连接的频道，找到 **Basic Settings** 下的 **Assertion Signing Key**，点击 **Register a public key** 按钮，粘贴刚刚复制的公钥，然后点击 **Register** 按钮。
 5. 复制 **Assertion Signing Key** 并将其粘贴到频道设置页面。
 6. 然后填写 **Channel ID** 和 **Channel Secret**。您可以在 **Basic Settings** 下找到它们。
-7. 可选：填写 **Basic ID**，一个带有邀请 URL 的 LINE 图标将被添加到订阅表单中。
+7. 可选：填写 **Basic ID**，一个带有邀请 URL 的 LINE 图标将被添加到订阅表单中。你可以在 **Messaging API Settings** 下找到它。
 
 就是这样。现在您可以保存设置。新发布的文章也将发送到 LINE 频道。

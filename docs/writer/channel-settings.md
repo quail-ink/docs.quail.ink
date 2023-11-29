@@ -81,7 +81,7 @@ The next step is to add the bot to the channel and give it permissions. Let's mo
 
 Then you can add the bot to the channel, and fill in the token and channel id in the channel settings page.
 
-### LINE Settings
+## LINE Settings
 
 Quail supports sending posts to LINE Channel. Before you start, please make sure you have already created a LINE Channel at [LINE Developer Dashboard](https://developers.line.biz/console). Begin from stratch, you need to create a **Provider**, then create a **Messaging API Channel** under the channel.
 
@@ -91,6 +91,6 @@ Quail supports sending posts to LINE Channel. Before you start, please make sure
 4. Visit [LINE Developer Dashboard](https://developers.line.biz/console), select the channel you want to connect, find **Assertion Signing Key** under **Basic Settings**, click **Register a public key** button, paste the public key you just copied, then click **Register** button.
 5. Copy the **Assertion Signing Key** and paste it to the channel settings page.
 6. Then fill in the **Channel ID** and **Channel Secret**. You can find them under **Basic Settings**.
-7. Optional: fill in the **Basic ID**, an LINE icon with invite URL will be added to the subscribe form.
+7. Optional: fill in the **Basic ID**, an LINE icon with invite URL will be added to the subscribe form. You can find it under **Messaging API Settings**.
 
 That's all. Now you can save the settings. The new deliveried posts will be sent to the LINE channel too.

@@ -25,7 +25,7 @@ DNS 记录可能需要几个小时才能生效。 如果您无法通过自定义
 :::
 
 ::: warning
-如果您使用的是 Cloudflare，请在添加 CNAME 记录时取消「代理」选项，然后在域名验证成功后开启「代理选项」，并且务必在 TLS 设置中选择 Full 模式。
+如果您使用的是 Cloudflare，请在添加 CNAME 记录时取消「代理」选项，并且务必在 TLS 设置中选择 Full 模式。
 :::
 
 ## Canonical URL base

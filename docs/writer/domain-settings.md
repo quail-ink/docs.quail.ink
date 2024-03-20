@@ -25,7 +25,7 @@ It may take a few hours for the DNS record to take effect. If you can't access t
 :::
 
 ::: warning
-If you are using Cloudflare, please disable the "Proxy" option when adding the CNAME record, then turn on the "Proxy" after the domain verification is successful, and be sure to select Full mode in the TLS settings.
+If you are using Cloudflare, please disable the "Proxy" option when adding the CNAME record, and be sure to select Full mode in the TLS settings.
 :::
 
 ## Canonical URL base

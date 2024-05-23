@@ -10,6 +10,7 @@ export const messages = {
     "payment_settings": "Payment Settings" ,
     "channel_settings": "Channel Settings" ,
     "domain_settings": "Domain Settings" ,
+    "widget_settings": "Widget Settings" ,
     "markdown_syntax": "Markdown Syntax",
     "migration": "Migration",
     "other_topics": "Other Topics",
@@ -30,6 +31,7 @@ export const messages = {
     "payment_settings": "支付设置" ,
     "channel_settings": "频道设置" ,
     "domain_settings": "域名设置" ,
+    "widget_settings": "Widget 设置" ,
     "markdown_syntax": "Markdown 语法",
     "migration": "迁移",
     "other_topics": "其他主题",
@@ -39,26 +41,6 @@ export const messages = {
     "obsidian_plugin": "Obsidian 插件",
     "ai": "AI 功能",
   },
-  "ja": {
-    "home": "ホーム",
-    "tutorial": "チュートリアル",
-    "writer_manual": "作者マニュアル",
-    "compose_and_deliver": "作成と投稿",
-    "compose_online": "オンライン作成" ,
-    "email_settings": "メール設定" ,
-    "list_settings": "リスト設定" ,
-    "payment_settings": "支払い設定" ,
-    "channel_settings": "チャンネル設定" ,
-    "domain_settings": "ドメイン設定" ,
-    "markdown_syntax": "Markdown 構文",
-    "migration": "移行",
-    "other_topics": "その他",
-    "faq": "よくある質問",
-    "troubleshooting": "トラブルシューティング",
-    "plugins": "プラグイン",
-    "obsidian_plugin": "Obsidian プラグイン",
-    "ai": "AI 機能",
-  }
 }
 
 export const t = (lang, key: string) => {

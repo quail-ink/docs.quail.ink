@@ -10,19 +10,13 @@ At present, Quail supports the following channels: Telegram, Discord, LINE. We w
 
 ## Discord Settings
 
-Quail supports sending posts to Discord. The steps are very simple:
-
-1. Let's assume that you have already created a Discord server, and you have the permission to manage the server.
-2. Follow [the instructions](https://techwiser.com/how-to-copy-discord-profile-channel-server-message-id-and-link/) to get the channel id.
-3. Visit [Quail's dashboard](https://quail.ink/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
-4. You will see a "Channel Settings" section, just enable Discord channel and fill in the **Discord Channel ID**, then click the `Save` button.
-5. Optional: fill in the **Discord invite URL**, an discord icon with invite URL will be added to the subscribe form.
+Quail Supports sending posts to Discord. Please read [this weekly post](https://quail.ink/blog/p/how-to-integrate-discord-with-your-newsletter-by-quail) to learn how to set up Discord.
 
 ## Telegram Settings
 
 ### Create a telegram channel
 
-The second step is to create a telegram channel. You can follow the the instructions below to create a channel:
+The 1st step is to create a telegram channel. You can follow the the instructions below to create a channel:
 
 - iPhone: Start a new message (tap the icon in the top-right corner in Chats). Then ‘New Channel’.
 - Android: Tap the circular pencil icon in the chat list. Then ‘New Channel’.

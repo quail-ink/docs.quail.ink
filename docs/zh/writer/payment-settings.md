@@ -6,58 +6,26 @@ outline: deep
 
 **[Quail](https://quail.ink "Quail Official Website")** 支持付费订阅。您可以在此设置您的付费订阅。
 
-## 非加密货币支付
-
-Quail supports non-cryptocurrency payment methods such as credit cards, debit cards, WeChat Pay and PayPal. However, due to the high fees charged by payment processors, writers must apply for using non-cryptocurrency payment methods.
-
-If you want to use non-cryptocurrency payment methods, please contact us at [Discord](https://discord.gg/quMK3kj).
-
 ## 加密货币支付
 
-### 准备工作
+Quail 支持以太坊、Base 和币安智能链三种区块链的加密货币支付。
 
-**[Quail](https://quail.ink "Quail Official Website")** 目前仅支持加密货币作为支付方式。在开启支付之前，您需要先设置一个支持 EVM 的加密货币钱包。接下来，将以桌面版 [Metamask](https://metamask.io/) 为例，介绍如何设置支付。
+请阅读以下文章设置您的加密货币钱包：
 
-**安装 Metamask 创建钱包**
+- [以太坊设置](https://quail.ink/quail-zh/p/how-to-enable-eth-blockchain-payment-for-newsletter)
+- [Base 链设置](https://quail.ink/quail-zh/p/how-to-enable-base-blockchain-payment-for-newsletter)
+- [币安智能链设置](https://quail.ink/quail-zh/p/how-to-enable-bsc-blockchain-payment-for-your-newsletter)
 
-首先，您需要安装 Metamask 浏览器插件。您可以在 [Metamask 官网](https://metamask.io/)下载适合您浏览器的插件。
+## 非加密货币支付
 
-安装完 Metamask 后，您需要创建一个钱包。在 Metamask 插件中，点击「Create a Wallet」，然后按照指示创建钱包。
+Quail 支持信用卡、借记卡、微信支付等非加密货币支付方式。 
 
-请记住您的助记词，这是恢复钱包的唯一方式。
+在开启非加密货币支付之前，请先在 [Payout Settings](https://quail.ink/dashboard/profile/payout) 中设置您的支付方式。
 
-### 开启支付
+设置完支付方式后，您可以在列表的「List Settings - Payment Settings」 中开启支付功能。
 
-1. 在 Quail 的「列表设置」中，找到「支付设置」。
-2. 点击「绑定钱包」，如果 Metamask 已经正确安装，那么会弹出授权窗口。请完成授权。
-3. 此时，Quail 会读取您的钱包地址，并显示在「绑定钱包」中。
-4. 请选择您要接收支付的加密货币。目前支持 USDC 和 pUSD 两种美元稳定币。
-5. 请输入季度订阅价格，和年度订阅价格，价格必须大于 0。
-6. 点击「保存」按钮。
+## 推荐反佣计划
 
-如果没有错误，则支付设置已经完成。您可以点击「访问会员升级页」来查看会员升级页面的呈现效果。
+为了更好地推广您的付费订阅，您可以设置一个推荐反佣计划，以奖励您的订阅者邀请他们的朋友订阅。
 
-### 查看收益
-
-Quail 不会保存您的资金，所有的资金都会直接转入您的钱包在 [MVM 网络](https://mvm.app) 上的地址。
-
-当一位新的订阅者为您的会员计划付费时，您的邮箱会收到一封邮件。同时，您可以点击 Quail 的「列表设置」中「绑定钱包」右侧的放大镜按钮。
-
-将会带您前往 MVM 网络的区块浏览器地址页面，您可以在这里查看您的资金和交易情况。
-
-### 提取资金
-
-MVM 网络提供了 [MVM 桥](https://bridge.mvm.app/) 这一应用程序，用于查看、存入和提取资金。
-
-您可以在 MVM 桥选择您要提取的资金，点击「Withdraw」，按照指示操作即可将资金从 MVM 网络提取到对应的 L1 网络中。
-
-**存入一些 ETH 作为 Gas 费**
-
-MVM 提现时会消耗 ETH 作为 Gas 费。 请确保您的钱包有足够的 ETH 来支付 Gas 费。
-
-如果没有，您可以使用 [Pando](https://pando.im "Pando Official Website") 的 Deposit 功能将ETH存入您的钱包：
-
-1. 访问 [Pando App](https://app.pando.im/) 并连接钱包。
-2. 点击页面右上角的钱包地址（在移动设备上，点击选项卡中的最后一项），然后点击 “充值”。
-3. 选择 ETH，输入您要充值的金额，然后点击“充值”。
-
+请阅读 [这篇周报](https://quail.ink/quail-zh/p/quail-weekly-40) 来设置您的推荐反佣计划。

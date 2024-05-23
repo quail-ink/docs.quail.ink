@@ -16,7 +16,7 @@ const genNav = () => {
 
 const genI18nSidebar = () => {
   const ret = {};
-  for (const lang of ['en', 'zh', 'ja']) {
+  for (const lang of ['en', 'zh']) {
     const prefix = lang === 'en' ? '' : '/' + lang;
     ret[`${prefix}/writer/`] = [
       {
@@ -35,6 +35,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'channel_settings'), link: `${prefix}/writer/channel-settings` },
           { text: t(lang, 'analytics_settings'), link: `${prefix}/writer/analytics-settings` },
           { text: t(lang, 'domain_settings'), link: `${prefix}/writer/domain-settings` },
+          { text: t(lang, 'widget_settings'), link: `${prefix}/writer/widget-settings` },
         ]
       },
       {
@@ -72,10 +73,6 @@ export default defineConfig({
     zh: {
       label: '简体中文',
       lang: 'zh',
-    },
-    ja: {
-      label: '日本語',
-      lang: 'ja',
     }
   },
 

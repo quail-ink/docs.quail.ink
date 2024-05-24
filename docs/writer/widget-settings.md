@@ -72,3 +72,15 @@ Here are some sample CSS code snippets for customizing the widget. Feel free to 
 <iframe src="https://quail.ink/blog/widget.external?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
     width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
+
+### 2. Use custom font
+
+**Code**
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+* {
+  font-family: "Inconsolata", monospace;
+}
+```
+

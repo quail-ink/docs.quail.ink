@@ -72,3 +72,14 @@ Widget 提供了一种在您的网站上嵌入 Quail 的订阅表单的方法。
 <iframe src="https://quail.ink/blog/widget.external?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
     width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
+
+### 2. 自定义字体
+
+**代码**
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+* {
+  font-family: "Inconsolata", monospace;
+}
+```

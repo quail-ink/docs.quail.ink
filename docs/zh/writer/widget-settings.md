@@ -123,7 +123,7 @@ body {
 
 **示例**
 
-<iframe src="https://quail.ink/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=dark" data-theme="dark"
+<iframe src="https://quail.ink/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=light" data-theme="light"
     width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 

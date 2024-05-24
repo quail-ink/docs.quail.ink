@@ -34,6 +34,8 @@ Then you can write your CSS code in the editor. The code will be applied to the 
 
 > It may take a few seconds to apply the new styles.
 
+Discussing how to customize widget styles with CSS is beyond the scope of this document. If you need help, feel free to join our [developer community](https://discord.gg/FWrJ8bwhwe).
+
 ## Sample CSS Code
 
 Here are some sample CSS code snippets for customizing the widget. Feel free to copy and paste them into the editor.

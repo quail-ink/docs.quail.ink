@@ -23,6 +23,7 @@ const genI18nSidebar = () => {
         text: t(lang, 'compose_and_deliver'),
         items: [
           { text: t(lang, 'compose_online'), link: `${prefix}/writer/compose-online` },
+          { text: t(lang, 'delivery'), link: `${prefix}/writer/delivery` },
           { text: t(lang, 'markdown_syntax'), link: `${prefix}/writer/markdown-syntax` },
           { text: t(lang, 'ai'), link: `${prefix}/writer/ai` },
         ]

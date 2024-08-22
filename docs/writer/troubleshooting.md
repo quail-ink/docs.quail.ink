@@ -29,3 +29,4 @@ If you can't receive the email, please follow the steps below:
 
 1. Check your spam folder.
 2. If you're the list owner, check your email settings, make sure you have enabled the email delivery.
+3. If you use email services in mainland China, you may not receive the email due to content censorship. 

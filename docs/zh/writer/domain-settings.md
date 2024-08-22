@@ -21,7 +21,8 @@ outline: deep
 5. 等待DNS记录生效，然后在列表设置页面点击“保存”按钮
 
 ::: info
-DNS 记录可能需要几个小时才能生效。 如果您无法通过自定义域访问该列表，请等待几个小时，然后重试。
+DNS 记录可能需要几个小时才能生效。如果您无法通过自定义域访问该列表，请等待几个小时，然后重试。
+如果依然无法通过，请联系我们。
 :::
 
 ::: warning
@@ -32,4 +33,4 @@ DNS 记录可能需要几个小时才能生效。 如果您无法通过自定义
 
 Canonical URL base 用于生成文章和列表的规范 URL，以帮助搜索引擎更好地索引您的内容。
 
-在大多数实践中，最好将其设置为您的自定义域。例如，如果您的自定义域是 `https://letters.example.com`，那么您应该将 Canonical URL base 设置为 `https://letters.example.com`。
+在大多数实践中，最好将其设置为您的自定义域。例如，如果您的自定义域是 `https://letters.example.com`，那么您应该将 Canonical URL Base 设置为 `https://letters.example.com`。

@@ -6,7 +6,35 @@ outline: deep
 
 Quail supports to deliver posts to different channels. This document will guide you through the process of setting up channels. 
 
-At present, Quail supports the following channels: Telegram, Discord, LINE. We will add more channels in the future.
+At present, Quail supports the following channels: Email, Telegram, Discord, LINE and X. We will add more channels in the future.
+
+## Email Settings
+
+Authors can adjust the list's email delivery related settings here.
+
+### Email Delivery
+
+When this option is turned on, every time an article is delivered, an email will be sent to all subscribers. When this option is turned off, no email will be sent when articles are delivered, but subscribers will still see new articles on the list page, feed, or other channels.
+
+### Onboarding Text
+
+When a subscriber subscribes to a list, they receive a welcome email. 
+
+Here you can edit the content of the welcome email. If the content is empty, **[Quail](https://quail.ink "Quail Official Website")** will use the default text.
+
+### Signature Text
+
+At the end of each email, a signature text is attached. 
+
+Here you can edit the content of the signature text. If the content is empty, Quail will not attach the signature text to the message.
+
+### Email Provider denylist
+
+Some authors don't want their content to be subscribed by addresses provided by certain email providers, so they can add here. After adding the denylist, when subscribers use the email address provided by these email providers to subscribe, they will be prompted that they cannot subscribe:
+
+```The list owner rejected your subscription, because your email provider is in the denylist.```
+
+Please split multiple domains with commas, for example: set `qq.com, 163.com, soho.com`, it will reject emails from `@qq.com`, `@163.com` and `@soho. com` email address to subscribe.
 
 ## Discord Settings
 
@@ -27,6 +55,11 @@ After you create the channel, please make it public so that everyone can join it
 ### Add Quail's bot to the channel
 
 Search `@QuailSenderBot` in telegram, then add it to the channel as administrator. Make sure the bot has the permission to send messages to the channel.
+
+Setting up channels has two benefits:
+
+1. When pdelivering articles, you can choose to send them to these channels.
+2. If you have set up Telegram, Discord, Line, or X, Quail will display buttons to readers on the Quail webpage. Readers can click the button to join the channel and receive article updates.
 
 ### Connect Quail to telegram
 
@@ -88,3 +121,7 @@ Quail supports sending posts to LINE Channel. Before you start, please make sure
 7. Optional: fill in the **Basic ID**, an LINE icon with invite URL will be added to the subscribe form. You can find it under **Messaging API Settings**.
 
 That's all. Now you can save the settings. The new deliveried posts will be sent to the LINE channel too.
+
+## X Settings
+
+Connecting Quail to X (formerly Twitter) is quite simple. In the "[List Settings - General Settings](https://quail.ink/dashboard/lists/@current/settings/general)," just follow the prompts to authorize Quail to access your X account.

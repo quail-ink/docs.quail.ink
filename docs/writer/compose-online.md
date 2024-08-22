@@ -6,16 +6,16 @@ outline: deep
 
 > This document explains how to use Quail's online editor to write articles. If you use Markdown editors like Obsidian, you can refer to the "[Obsidian Plugin](./obsidian-plugin.md)".
 
-## Article Title and Alias
+## Article Title and Slug
 
-The article title refers to the title of the article, which will be displayed in the title bar of the article page. The article alias is a unique identifier for the article and will be displayed in the URL of the article page. Generally, the article alias is the English translation of the article title or the pinyin of the article title.
+The article title refers to the title of the article, which will be displayed in the title bar of the article page. The article asluglias is a unique identifier for the article and will be displayed in the URL of the article page. Generally, the article slug is the English translation of the article title or the pinyin of the article title.
 
 For example:
 
-- Article Title: `Introduction to Quail: Understanding Quail in Five Minutes`
-- Article Alias: `quail-introduction-five-minutes-to-understand-quail`
+- Article title: `Introduction to Quail: Understanding Quail in Five Minutes`
+- Article slug: `quail-introduction-five-minutes-to-understand-quail`
 
-**[Quail](https://quail.ink "Quail Official Website")** provides a feature to automatically generate article aliases. You can click the "AI Guess" magic wand button on the right side of the article alias input box, and Quail will automatically generate an article alias based on the article title.
+**[Quail](https://quail.ink "Quail Official Website")** provides a feature to automatically generate article slug. You can click the "AI Guess" magic wand button on the right side of the article slug input box, and Quail will automatically generate an article slug based on the article title.
 
 ## Article Cover, Summary, and Tags
 
@@ -44,19 +44,27 @@ If you are not familiar with Markdown syntax, Quail provides a quick reference f
 
 Similar to the article cover, authors can choose to upload their own images or use the free images provided by Unsplash. The toolbar buttons have the same functionality as the article cover, so we won't go into detail here.
 
-### Inserting Videos
+### Inserting Embeded Objects
 
-Quail currently does not support uploading video files directly, but you can insert videos from third-party video platforms. Currently, Quail supports YouTube and Bilibili.
+The new embedding feature offers a variety of content types to enhance your posts:
 
-Here's how you can do it:
+- List: Easily embed curated lists from Quail to provide relevant information to your readers, or ask your readers to subscribe your newsletter
+- Post: Integrate Quail's posts to articles offer additional insights.
+- Video: Embed youtube videos directly into your content to create a more engaging and interactive experience.
+- X's Post: Embed X's Post (formerly Tweet) into articles.
+- TradingView: Include live financial data and charts from TradingView to keep your audience informed with real-time financial information.
 
-1. Open the YouTube or Bilibili video page.
-2. Select the "Share" option and copy the URL of the video.
-3. Paste the URL on a separate line in the editor.
+**How to Use Embedding Feature**
 
-After publishing the article, Quail will automatically convert the video link into a video player.
+Using the embedding feature is simple and straightforward. Follow these steps:
 
-### Inserting Members-Only Content (Paid)
+1. Write the article and move the cursor to the position where you want to insert the embedded object.
+   ![](https://static.quail.ink/media/16nue5mm.webp)
+2. Choose the content type and select the object you want to insert: list, post, video, X's post, or TradingView chart, and fill in the corresponding link.
+   ![](https://static.quail.ink/media/q38ueom6.webp)
+3. Click the "Insert" button to embed the object into the article.
+
+### Inserting Members-Only Content (Paid Tag)
 
 Quail allows inserting a paywall in the article. After inserting the paywall, the content before the paywall is free, and the content after the paywall is only readable by premium members.
 

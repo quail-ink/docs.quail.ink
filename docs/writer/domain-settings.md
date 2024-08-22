@@ -22,6 +22,7 @@ Writers can add a custom domain to their list. After adding, the list will be ac
 
 ::: info
 It may take a few hours for the DNS record to take effect. If you can't access the list via the custom domain, please wait a few hours and try again.
+Please contact us if you still can't access it.
 :::
 
 ::: warning

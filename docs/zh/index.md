@@ -7,7 +7,7 @@ hero:
   tagline: Quail.ink 的官方文档
   actions:
     - theme: brand
-      text: 作者文档
+      text: 写作手册
       link: /zh/writer/index
     - theme: alt
       text: 官方网站

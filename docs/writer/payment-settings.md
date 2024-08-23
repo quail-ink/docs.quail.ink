@@ -6,6 +6,10 @@ outline: deep
 
 **[Quail](https://quail.ink "Quail Official Website")** supports premium subscriptions. You can set up payment in the "Payment Settings" of the list settings.
 
+## Preparation
+
+Before setting up payment, please refer to [Payout Settings](./payout-settings.md) to complete the necessary steps.
+
 ## Cryptocurrency Payment
 
 Quail support 3 types of blockchain for cryptocurrency payment: Ethereum, Base and Binance Smart Chain.

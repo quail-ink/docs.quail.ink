@@ -29,14 +29,25 @@ const genI18nSidebar = () => {
         ]
       },
       {
+        text: t(lang, 'monetization'),
+        items: [
+          { text: t(lang, 'prepare_for_monetization'), link: `${prefix}/writer/monetization` },
+          { text: t(lang, 'premium'), link: `${prefix}/writer/premium` },
+          { text: t(lang, 'ads'), link: `${prefix}/writer/ads` },
+        ]
+      },
+      {
         text: t(lang, 'list_settings'),
         items: [
           { text: t(lang, 'general_settings'), link: `${prefix}/writer/general-settings` },
           { text: t(lang, 'analytics_settings'), link: `${prefix}/writer/analytics-settings` },
           { text: t(lang, 'domain_settings'), link: `${prefix}/writer/domain-settings` },
           { text: t(lang, 'widget_settings'), link: `${prefix}/writer/widget-settings` },
-          { text: t(lang, 'payment_settings'), link: `${prefix}/writer/payment-settings` },
           { text: t(lang, 'channel_settings'), link: `${prefix}/writer/channel-settings` },
+          { text: t(lang, 'monetization_settings'), link: `${prefix}/writer/monetization-settings` },
+          { text: t(lang, 'payout_settings'), link: `${prefix}/writer/payout-settings` },
+          { text: t(lang, 'payment_settings'), link: `${prefix}/writer/payment-settings` },
+          { text: t(lang, 'ads_settings'), link: `${prefix}/writer/ads-settings` },
         ]
       },
       {

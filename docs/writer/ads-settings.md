@@ -2,5 +2,5 @@
 outline: deep
 ---
 
-# Ads
+# Ads Settings
 

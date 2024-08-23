@@ -3,9 +3,18 @@ export const messages = {
     "home": "Home",
     "tutorial": "Tutorial",
     "writer_manual": "Writer",
+
     "compose_and_deliver": "Compose and Deliver",
     "compose_online": "Compose Online" ,
     "delivery": "Deliver Posts" ,
+    "markdown_syntax": "Markdown Syntax",
+    "ai": "AI Features",
+
+    "monetization": "Monetization" ,
+    "prepare_for_monetization": "Prepare to Earn" ,
+    "premium": "Premium Subscriptions" ,
+    "ads": "Ads" ,
+
     "email_settings": "Email Settings" ,
     "list_settings": "Settings" ,
     "general_settings": "General Settings" ,
@@ -13,23 +22,34 @@ export const messages = {
     "domain_settings": "・Custom Domain" ,
     "widget_settings": "・Widget" ,
     "channel_settings": "Channel Settings" ,
-    "payment_settings": "Payment Settings" ,
-    "markdown_syntax": "Markdown Syntax",
-    "migration": "Migration",
+    "monetization_settings": "Monetization Settings" ,
+    "payout_settings": "・Payout Settings" ,
+    "payment_settings": "・Payment Settings" ,
+    "ads_settings": "・Ads Settings" ,
+
     "other_topics": "Other Topics",
-    "faq": "FAQ",
+    "migration": "Migration",
     "troubleshooting": "Troubleshooting",
+
     "plugins": "Plugins",
     "obsidian_plugin": "Obsidian Plugin",
-    "ai": "AI features",
   },
   "zh": {
     "home": "首页",
     "tutorial": "教程",
     "writer_manual": "作者手册",
+
     "compose_and_deliver": "撰写与推送",
     "compose_online": "在线撰写" ,
     "delivery": "推送文章" ,
+    "markdown_syntax": "Markdown 语法",
+    "ai": "AI 功能",
+
+    "monetization": "收益化" ,
+    "prepare_for_monetization": "赚取收益" ,
+    "premium": "收费订阅" ,
+    "ads": "广告" ,
+
     "email_settings": "邮件设置" ,
     "list_settings": "设置" ,
     "general_settings": "通用设置" ,
@@ -37,15 +57,17 @@ export const messages = {
     "domain_settings": "・统计分析" ,
     "widget_settings": "・Widget" ,
     "channel_settings": "频道设置" ,
-    "payment_settings": "支付设置" ,
-    "markdown_syntax": "Markdown 语法",
-    "migration": "迁移",
+    "monetization_settings": "收益设置" ,
+    "payout_settings": "・收款设置" ,
+    "payment_settings": "・支付设置" ,
+    "ads_settings": "・广告设置" ,
+
     "other_topics": "其他主题",
-    "faq": "常见问题",
+    "migration": "迁移",
     "troubleshooting": "故障排除",
+
     "plugins": "插件",
     "obsidian_plugin": "Obsidian 插件",
-    "ai": "AI 功能",
   },
 }
 

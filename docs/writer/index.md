@@ -33,6 +33,9 @@ This manual is designed to help you get started with writing in [Quail](https://
   - [Widget](./widget-settings): How to set up a widget and embed it into your website.
 - [Channel Settings](./channel-settings): How to set up push channels, including Email, Telegram, Discord, Line, Twitter, RSS, etc.
 - [Monetization Settings](./monetization-settings): Including setting up premium subscriptions, ads, etc.
+  - [Payout Settings](./payout-settings): Preparations for earning revenue on Quail.
+  - [Payment Settings](./payment-settings): How to set up payment for premium subscriptions.
+  - [Ads Settings](./ads-settings): How to set up and earn revenue through ads.
 
 ## Plugins
 

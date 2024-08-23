@@ -6,6 +6,10 @@ outline: deep
 
 **[Quail](https://quail.ink "Quail Official Website")** 支持付费订阅。您可以在此设置您的付费订阅。
 
+## 准备工作
+
+在设置支付之前，请先在 [Payout Settings](./payout-settings.md) 中完成必要的步骤。
+
 ## 加密货币支付
 
 Quail 支持以太坊、Base 和币安智能链三种区块链的加密货币支付。
@@ -18,7 +22,7 @@ Quail 支持以太坊、Base 和币安智能链三种区块链的加密货币支
 
 ## 非加密货币支付
 
-Quail 支持信用卡、借记卡、微信支付等非加密货币支付方式。 
+Quail 支持信用卡、借记卡、微信支付等非加密货币支付方式。
 
 在开启非加密货币支付之前，请先在 [Payout Settings](https://quail.ink/dashboard/profile/payout) 中设置您的支付方式。
 

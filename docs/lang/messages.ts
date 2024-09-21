@@ -59,7 +59,7 @@ export const messages = {
     "channel_settings": "频道设置" ,
     "monetization_settings": "收益设置" ,
     "payout_settings": "・收款设置" ,
-    "payment_settings": "・支付设置" ,
+    "payment_settings": "・付款设置" ,
     "ads_settings": "・广告设置" ,
 
     "other_topics": "其他主题",

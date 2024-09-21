@@ -34,7 +34,7 @@ outline: deep
 - [频道设置](./channel-settings)：如何设置推送渠道，包括 Email、Telegram、Discord、Line、Twitter、RSS 等。
 - [收益化设置](./monetization-settings)：包括设置收费订阅、广告等。
   - [准备收款](./payout-settings)：在 Quail 上赚取收益的准备工作。
-  - [支付设置](./payment-settings)：如何设置付费订阅的支付方式。
+  - [付款设置](./payment-settings)：如何设置付费订阅的支付方式。
   - [广告设置](./ads-settings)：如何设置并通过广告赚取收益。
 
 ## 插件

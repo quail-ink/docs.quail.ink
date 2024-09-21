@@ -4,7 +4,6 @@ outline: deep
 
 # Prepare to Earn
 
-
 Before earning revenue on [Quail](https://quail.ink), you need to complete the following preparations.
 
 1. **Provide Tax Information**: Provide tax information in [Profile](https://quail.ink/dashboard/profile/payout), including name
@@ -33,12 +32,19 @@ In Japan, this tax applies to various forms of income, including earnings from p
 The withholding tax rate varies based on the residency status of the recipient. Japanese residents face a tax rate of 10.21%, while non-Japanese residents are subject to a rate of 20.42%.
 
 > Reference
+>
 > 1. https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm
 > 2. https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm
 
 For example, if an author is a Japanese resident, and their income after deducting all expenses for the month is 10,000 JPY, Quail will deduct 1,021 JPY in withholding tax at the time of payout. If the author is a non-Japanese resident, Quail will deduct 2,042 JPY in withholding tax at the time of payout.
 
 The Withholding Tax is levied on various types of income generated in Japan, regardless of whether the author is a Japanese tax resident. Quail will deduct the withholding tax at the time of payout.
+
+:::warning Note
+In the self-hosted payment mode, Quail is not responsible for the sale of content goods, collection, invoices, refunds, tax refunds, etc.
+
+Therefore, all taxes incurred must be declared and paid by the author in accordance with the tax laws of the country.
+:::
 
 **Tax Conventions for Non-Japanese Residents**
 
@@ -61,7 +67,7 @@ For paid content subscriptions, Quail uses Stripe and blockchain as payment proc
 
 ### Quail Fee
 
-Quail charges a service fee for each transaction. The fee rate is 10% of the transaction amount. 
+Quail charges a service fee for each transaction. The fee rate is 10% of the transaction amount.
 
 ### Payout Fees
 
@@ -74,24 +80,25 @@ When Quail transfers funds to authors, the following fees may be incurred:
 
 ## Payout
 
+For Quail-hosted payment mode subscription and ad revenue, Quail will settle the previous month's earnings on the 5th of each month.
+
 ### Payout Threshold
 
 The minimum amount required for Quail to transfer funds to the author is 5000 JPY(For regular payment methods) or 100 USD (For cryptocurrency). If your earnings do not reach the minimum amount, Quail will continue to accumulate them until the next settlement period until the minimum amount is reached.
 
-
 ### Settlement Period
 
-Quail will settle the author's earnings on the 15th of each month. If the 15th falls on a weekend or holiday, the settlement will be postponed to the next business day.
+Quail will settle the author's earnings on the 5th of each month. If the 5th falls on a weekend or holiday, the settlement will be postponed to the next business day.
 
-For example, if the author's earnings reach the minimum amount on January 10th, the author will receive the payment on February 15th.
+For example, if the author's earnings reach the minimum amount on January 10th, the author will receive the payment on February 5th.
 
 ### Example
 
 Here is an example of how Quail calculates and pays out earnings (Assuming the author is a Japanese resident and Stripe does not charge additional fees):
 
-- An author earns 10,000 JPY in January, which includes an order of 2,000 JPY  and an order of 8,000 JPY.
+- An author earns 10,000 JPY in January, which includes an order of 2,000 JPY and an order of 8,000 JPY.
 - These 2 orders' JCT is 200 JPY and 800 JPY, respectively. Therefore, Quail actually receives 11,000 JPY.
-- Stripe charges a 3.6% fee and accompanying consumption tax, which will be about `11,000×3.6%×1.1 = 396` JPY. 
+- Stripe charges a 3.6% fee and accompanying consumption tax, which will be about `11,000×3.6%×1.1 = 396` JPY.
 - Quail will charge a 10% service fee, which will be about `10,000×10% = 1,000` JPY.
 - The author's revenue is `11000-1000-436-1000=8564` JPY.
 - The withholding tax is 10.21% of the author's revenue, which is `8564×0.1021=874` JPY.

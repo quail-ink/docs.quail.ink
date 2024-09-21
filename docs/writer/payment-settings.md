@@ -4,11 +4,79 @@ outline: deep
 
 # Payment Settings
 
-**[Quail](https://quail.ink "Quail Official Website")** supports premium subscriptions. You can set up payment in the "Payment Settings" of the list settings.
-
 ## Preparation
 
 Before setting up payment, please refer to [Payout Settings](./payout-settings.md) to complete the necessary steps.
+
+## Payment
+
+In the list's [Payment Settings](https://quail.ink/dashboard/lists/@current/settings/payment), authors can enable payment to receive payments from subscribers.
+
+![](/images/screenshots/payment-settings-01.webp)
+
+### Set Price
+
+Quail supports annual, quarterly, and bi-weekly payment cycles, with the unit in USD. Authors can set their prices separately or turn off one of the cycles.
+
+## Self-Hosted Payment
+
+If the author has their Stripe account, they can choose to host payments themselves.
+
+In this case, the author needs to set up their Stripe account information. For more information about this model, please refer to [Premium Subscription - Self-Hosted Payment](./premium.md).
+
+Click the settings icon button to enter the self-hosted payment settings page.
+
+### Step 1: Subscribe to Quail's External Payment Service
+
+Click the subscribe button to go to the Stripe website and follow the instructions to complete the subscription.
+
+![](/images/screenshots/payment-settings-02.webp)
+
+### Step 2: Provide Company Information
+
+Provide company information in Quail, including company name, company address, company number, etc.
+
+![](/images/screenshots/payment-settings-03.webp)
+
+### Step 3: Configure Stripe
+
+Set up your Stripe information in Quail, including Stripe's API Key and Webhook Signature Key, and set up Webhooks in Stripe.
+
+![](/images/screenshots/payment-settings-04.webp)
+
+The API Key and Webhook Signature Key can be found in the Stripe developer settings. Here's how to do it:
+
+**API Key**
+
+Open the [Stripe API Key page](https://dashboard.stripe.com/apikeys) and create a new Restricted Key.
+
+![](/images/screenshots/create-stripe-api-key-01.webp)
+
+Give this Key a name, then select the permissions related to Checkout, choose "Write", and click "Create Key".
+
+![](/images/screenshots/create-stripe-api-key-02.webp)
+
+Then, copy this Key to Quail's Stripe API Key.
+
+![](/images/screenshots/create-stripe-api-key-03.webp)
+
+**Webhook Signature Key**
+
+Open the [Stripe Webhook page](https://dashboard.stripe.com/webhooks) and click "Add endpoint".
+
+![](/images/screenshots/create-stripe-webhook-01.webp)
+
+Fill the `Endpoint URL` with The Webhook URL provided by Quail, select the latest API version, and choose to listen for the required Checkout events, then click "Add endpoint".
+
+![](/images/screenshots/create-stripe-webhook-02.webp)
+
+In the Webhook page, find the Webhook you just created, and click "Signing secret".
+
+![](/images/screenshots/create-stripe-webhook-03.webp)
+
+Copy the `Signing secret` to Quail's Stripe Webhook Signature Key.
+
+![](/images/screenshots/create-stripe-webhook-04.webp)
 
 ## Cryptocurrency Payment
 
@@ -19,14 +87,6 @@ Please read the following posts to set up your cryptocurrency wallet:
 - [Ethereum Setup](https://quail.ink/blog/p/how-to-enable-eth-blockchain-payment-with-your-newsletter-by-quail)
 - [Base Chain Setup](https://quail.ink/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
 - [Binance Smart Chain Setup](https://quail.ink/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
-
-## Non-Cryptocurrency Payment
-
-Quail supports non-cryptocurrency payment methods such as credit cards, debit cards, WeChat Pay.
-
-To enable non-cryptocurrency payment, please visit [Payout Settings](https://quail.ink/dashboard/profile/payout) to set up your payout method at first.
-
-After setting up the payout method, you can enable the payment feature in the list's "List - SettingsPayment Settings".
 
 ## Referral Program
 

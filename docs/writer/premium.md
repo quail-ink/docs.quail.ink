@@ -32,6 +32,8 @@ In the self-hosted payment model, authors need to set up their Stripe account in
 
 Quail is not responsible for the sale of content goods, collection, invoices, refunds, tax refunds, etc. Authors need to handle tax matters according to the requirements of the company or individual's location.
 
+In the self-hosted payment model, Quail will deduct a platform fee equivalent to 10% of the order amount (excluding tax) from the author's credit card the following month based on the order situation of the current month.
+
 To use the self-hosted payment model, you need to:
 
 1. Complete the relevant settings mentioned in [Preparing for Payment](./monetization.md).

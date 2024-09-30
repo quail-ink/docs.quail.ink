@@ -31,7 +31,7 @@ export const messages = {
     "migration": "Migration",
     "troubleshooting": "Troubleshooting",
 
-    "plugins": "Plugins",
+    "tools": "Tools",
     "obsidian_plugin": "Obsidian Plugin",
   },
   "zh": {
@@ -66,7 +66,7 @@ export const messages = {
     "migration": "迁移",
     "troubleshooting": "故障排除",
 
-    "plugins": "插件",
+    "tools": "工具",
     "obsidian_plugin": "Obsidian 插件",
   },
 }

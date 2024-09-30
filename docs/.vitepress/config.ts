@@ -51,9 +51,10 @@ const genI18nSidebar = () => {
         ]
       },
       {
-        text: t(lang, 'plugins'),
+        text: t(lang, 'tools'),
         items: [
           { text: t(lang, 'obsidian_plugin'), link: `${prefix}/writer/obsidian-plugin` },
+          { text: t(lang, 'quail_cli'), link: `${prefix}/writer/quail-cli` },
         ]
       },
       {

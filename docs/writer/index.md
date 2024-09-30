@@ -37,7 +37,7 @@ This manual is designed to help you get started with writing in [Quail](https://
   - [Payment Settings](./payment-settings): How to set up payment for premium subscriptions.
   - [Ads Settings](./ads-settings): How to set up and earn revenue through ads.
 
-## Plugins
+## Tools
 
 - [Obsidian Plugin](./obsidian-plugin): How to use the Obsidian plugin to publish your Obsidian notes to Quail.
 

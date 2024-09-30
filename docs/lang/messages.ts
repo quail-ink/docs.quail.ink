@@ -33,6 +33,7 @@ export const messages = {
 
     "tools": "Tools",
     "obsidian_plugin": "Obsidian Plugin",
+    "quail_cli": "Quail CLI",
   },
   "zh": {
     "home": "首页",
@@ -68,6 +69,7 @@ export const messages = {
 
     "tools": "工具",
     "obsidian_plugin": "Obsidian 插件",
+    "quail_cli": "Quail 命令行工具",
   },
 }
 

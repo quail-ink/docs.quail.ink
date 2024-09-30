@@ -40,6 +40,7 @@ This manual is designed to help you get started with writing in [Quail](https://
 ## Tools
 
 - [Obsidian Plugin](./obsidian-plugin): How to use the Obsidian plugin to publish your Obsidian notes to Quail.
+- [Quail CLI](./quail-cli): How to use the Quail CLI to interact with Quail through the command line.
 
 ## Other Topics
 

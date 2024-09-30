@@ -37,9 +37,10 @@ outline: deep
   - [付款设置](./payment-settings)：如何设置付费订阅的支付方式。
   - [广告设置](./ads-settings)：如何设置并通过广告赚取收益。
 
-## 插件
+## 工具
 
 - [Obsidian 插件](./obsidian-plugin)：如何使用 Obsidian 插件，将你的 Obsidian 笔记发布到 Quail。
+- [Quail CLI](./quail-cli): 如何使用 Quail CLI 通过命令行与 Quail 交互。
 
 ## 其他主题
 

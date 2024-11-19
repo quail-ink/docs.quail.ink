@@ -99,9 +99,9 @@ Here is an example of how Quail calculates and pays out earnings (Assuming the a
 - An author earns 10,000 JPY in January, which includes an order of 2,000 JPY and an order of 8,000 JPY.
 - These 2 orders' JCT is 200 JPY and 800 JPY, respectively. Therefore, Quail actually receives 11,000 JPY.
 - Stripe charges a 3.6% fee and accompanying consumption tax, which will be about `11,000×3.6%×1.1 = 396` JPY.
-- Quail will charge a 10% service fee, which will be about `10,000×10% = 1,000` JPY.
-- The author's revenue is `11000-1000-436-1000=8564` JPY.
-- The withholding tax is 10.21% of the author's revenue, which is `8564×0.1021=874` JPY.
-- The author's revenue after withholding tax is `8564-874=7690` JPY.
+- Quail will charge a 10% service fee (with 10% JCT), which will be about `10,000×10%×110% = 1,100` JPY.
+- The author's revenue is `11000-1100-436-1000=8464` JPY.
+- The withholding tax is 10.21% of the author's revenue, which is `8464×0.1021=864` JPY.
+- The author's revenue after withholding tax is `8464-864=7600` JPY.
 
-Quail will transfer the 7691 JPY to the author's account next month. According to selected payout method, it may charge additional fees.
+Quail will transfer the 7600 JPY to the author's account next month. According to selected payout method, it may charge additional fees.
